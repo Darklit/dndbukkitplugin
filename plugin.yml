@@ -1,0 +1,25 @@
+name: DnDCorePlugin
+
+main: com.dankrat.corePlugin.CorePlugin
+
+version: 0.5
+
+commands:
+  gm:
+    description: Useful tools for GameMasters.
+    usage: /<command>
+  roll:
+    description: Roll dice.
+    usage: /<command> <sides/amount> [sides]
+  turn:
+    description: Ends your turn.
+    usage: /<command>
+  party:
+    description: Lists the party members.
+    usage: /<command>
+  character:
+    description: Check character sheets.
+    usage: /<command> [name]
+  priest:
+    description: Priest specific commands.
+    usage: /<command>
